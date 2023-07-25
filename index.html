@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- box icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+    
+
+
+
+</head>
+
+<body>
+    <header class="header">
+
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#service">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+    <section class="home" id="home">
+        <div class="circular-frame"></div>
+        
+        <div class="home-content">
+            <h3>Hello,it's me</h3>
+            <h1>Prahlad kumar kushwaha</h1>
+            <h3>And I'm a <span id="pro">Python Developer</span></h3>
+            <p> Want to work in an environment which encourages me to succeed
+                and grow professionally where I can utilize my skills and
+                knowledge appropriately.
+                </p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/prahladkuma11/ " target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Prahladkumar11 " target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="mailto:prahladkuma11@gmail.com " target="_blank"><i class='bx bxs-envelope'></i></a>
+                <a href="https://api.whatsapp.com/send?phone=7800098059" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+            <a href="https://drive.google.com/file/d/1jcn3cCw1oPd_rSh-uF9olIpIonQAqSSq/view?usp=sharing" class="btn" target="_blank">Download CV <i class='bx bx-cloud-download' width='5rem' height='5rem'></i></a>
+
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Python Developer</h3>
+
+            <p>Hey! My name is Prahlad kr. kushwaha . I am from Varanasi ,Currently staying in Greater Noida.
+                I did Btech in Computer Science and Engineering from IIMT College of Engineering,Greater Noida.
+            </p> 
+            <a  class="bx btn know" id="toggleButton" onclick="toggleTabContainer()"  style="">Know More</a>
+            <div class="tab-container" id="tab-con" style="display: none;">
+                <button class="tab btn" onclick="openTab('skill')">Skill</button>
+                <button class="tab btn" onclick="openTab('education')">Education</button>
+                <div class="tab-content" id="skill">
+
+
+                  <!-- Content for the Skill tab -->
+
+
+                  
+                  <span class="skill_name">Python</span>
+                  <span class="skill_name">Html</span>
+                  <span class="skill_name">CSS</span>
+                  <span class="skill_name">Flask</span>
+                  <span class="skill_name">Django</span>
+                  <span class="skill_name">MySql</span>
+                  <span class="skill_name">MongoDb</span>
+                  <span class="skill_name">Bootstrap</span>
+                  <span class="skill_name">JavaScript</span>
+                </div>
+                <div class="tab-content" id="education">
+
+                  <!-- Content for the Education tab -->
+                  
+                  <ul >
+                   
+                    
+                    <div class="Education">
+                        <li>
+                        <dl >
+                            <dt class="edu-title"><span><B>IIMT College of Engg, Greater Noida</B></span></dt>
+                            <dd>2020-2024</dd>
+                            <dd>B.Tech</dd>
+                            <dd>7.0 Sgpa</dd>
+  
+                        </dl>
+                    </li>
+                    </div>
+                    
+                    <div class="Education">
+                        <li>
+                        <dl >
+                            <dt class="edu-title"><span><B>D.L.W Inter College,Varanasi</B></span></dt>
+                            <dd>2018-2019</dd>
+                            <dd>Intermediate</dd>
+                            <dd>72.3% </dd>
+  
+                        </dl>
+                    </li>
+                    </div>
+                    
+                    <div class="Education">
+                        <li>
+                        <dl >
+                            <dt class="edu-title"><span><B>D.L.W Inter College,Varanasi</B></span></dt>
+                            <dd>2016-2017</dd>
+                            <dd>High School</dd>
+                            <dd>80%</dd>
+  
+                        </dl>
+                    </li>
+                    </div>
+                  </ul>
+
+                </div>
+              </div>
+        </div>
+        <div class=".about-img">
+            <img src="img/img1.png" >
+        </div>
+       
+          
+        
+
+    </section>
+
+    <section class="service" id="service">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="service-container">
+            <div class="service-box">
+                <i class='bx bxl-python'></i>
+                <h3>Python Developer</h3>
+                <p>I developed many Gui-Based Desktop Application using Python like Face Recognition Attendance System , Message Encoder and Decoder etc.</p>
+                <a href="https://github.com/Prahladkumar11 " class="btn" target="_blank">Read More</a>
+
+            </div>
+            <div class="service-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Developer</h3>
+                <p>I developed many web application using Html, Css, Javascript ,Django and flask.
+                    Some of them are ChatBot etc </p>
+                <a href="https://github.com/Prahladkumar11 " class="btn" target="_blank">Read More</a>
+
+            </div>
+            <div class="service-box">
+                <i class='bx bxs-bar-chart-square'></i>
+                <h3>Data Analyst</h3>
+                <p>Currently did a project of flipkart review and rating anlaysis using Python </p>
+                <a href="https://github.com/Prahladkumar11 " class="btn" target="_blank">Read More</a>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/face_reco.png" alt="project_1">
+                <div class="portfolio-layer">
+                    <h4>Face Recognition Attendance System</h4>
+                    <p>It is a Gui-Based Desktop Application which is build totally in Python.Which use front camera to capture your live image and use Train dataset to identify the Candidate.
+                    </p>
+                    <a href="https://github.com/Prahladkumar11?tab=repositories" target="_blank"><i class='bx bx-link-external'></i>
+                    </a>
+
+                </div>
+
+
+            </div>
+            <div class="portfolio-box">
+                <img src="/img/passwor_manager.png" alt="project_1">
+                <div class="portfolio-layer">
+                    <h4>Passwor Manager</h4>
+                    <p>It is a Simple Desktop Application which can Generate and Store the Website Name,Username/Email and Password of the User.It can  Generate a strong random password.
+                    </p>
+                    <a href="https://github.com/Prahladkumar11?tab=repositories" target="_blank"><i class='bx bx-link-external'></i>
+                    </a>
+
+                </div>
+
+
+            </div>
+            <div class="portfolio-box">
+                <img src="/img/Encryption.png" alt="project_1">
+                <div class="portfolio-layer">
+                    <h4>Encryption and Decryption</h4>
+                    <p>Its is a website which can Encrypt or decrypt the Message using a Hashing Method.
+                    </p>
+                    <a href="/en.html" target="_blank"><i class='bx bx-link-external'></i>
+                    </a>
+
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="/img/cal.png" alt="project_1">
+                <div class="portfolio-layer">
+                    <h4>Calculator</h4>
+                    <p>It is a Simple Calcutor website with Basic mathematical functionally.
+                    </p>
+                    <a href="/Calculator.html" target="_blank"><i class='bx bx-link-external'></i>
+                    </a>
+
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="/img/port-web.png" alt="project_1">
+                <div class="portfolio-layer">
+                    <h4>Portfolio Website</h4>
+                    <p> It is a Responsive Portfolio Website Made in Html, Css and Javascript.</p>
+                    <a href="https://github.com/Prahladkumar11?tab=repositories" target="_blank"><i class='bx bx-link-external'></i>
+                    </a>
+
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="/img/whatapp_bot1.png" alt="project_1">
+                <div class="portfolio-layer">
+                    <h4>Whatapps Bot</h4>
+                    <p>It is a Python Script which can Bombbad Message to anyone on whatapp in defined number of times.
+                    </p>
+                    <a href="https://github.com/Prahladkumar11?tab=repositories" target="_blank"><i class='bx bx-link-external'></i>
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form name="submit" method="Post">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" name="f_name" id="">
+                <input type="Email" placeholder="Email" name="email" id="email">
+            </div>
+            <div class="input-box">
+                <input type="tel" placeholder="Mobile NO." name="mob_no" id="">
+                <input type=text" placeholder="Email Subject" name="email_sub" id="">
+
+            </div>
+            <textarea name="msg" id="" cols="30" rows="10" placeholder=" Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn" id="submitButton">
+            <!-- Hidden input fields for date and time -->
+            <input type="hidden" name="submitDate" id="submitDate" value="">
+            <input type="hidden" name="submitTime" id="submitTime" value="">
+
+        </form>
+
+
+
+    </section>
+    <footer class="footer">
+        <div class="footer-text" style="text-align: left;">
+            <p>Copyright &Copy; 2023 by Prahlad Kr kushwaha | All Rights Reseved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/script.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>
