@@ -148,7 +148,7 @@ span {
   height: 400px;
   border-radius: 50%; /* Apply circular shape with 50% border-radius */
   overflow: hidden; /* Hide any content that goes beyond the circular frame */
-  background-image: url("/img/img3.png");
+  background-image: url("img/img3.png");
   background-size: cover; /* Crop the image to fit the circular frame */
   background-position: center center; /* Center the image within the frame */
   background-repeat: no-repeat;
